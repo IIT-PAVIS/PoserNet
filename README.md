@@ -1,13 +1,21 @@
-# PoserNet
+<p align="center">
+  <img height="250" src="https://raw.githubusercontent.com/IIT-PAVIS/PoserNet/master/web/PoserNet_logo_and_name.svg?sanitize=true" />
+</p>
 
 ## Introduction
+The code in this repository is part of the paper:
+<br>
+**[PoserNet: Refining Relative Camera Poses Exploiting Object Detections (arXiv)](https://arxiv.org/abs/2207.09445)**
+<br>
+ <a href='https://pavis.iit.it/web/pattern-analysis-and-computer-vision/people-details/-/people/matteo-taiana'>Matteo Taiana</a>,
+ <a  href='https://pavis.iit.it/web/pattern-analysis-and-computer-vision/people-details/-/people/matteo-toso'>Matteo Toso</a>,
+ <a href='https://pavis.iit.it/web/pattern-analysis-and-computer-vision/people-details/-/people/stuart-james'>Stuart James</a> and
+ <a href='https://pavis.iit.it/web/pattern-analysis-and-computer-vision/people-details/-/people/alessio-delbue'>Alessio Del Bue</a>.
+<br>
+Accepted for publication at  [ECCV 2022](https://eccv2022.ecva.net/)
 
-The code in this repository is part of the ECCV2022 paper:
-
-``PoserNet: Refining Relative Camera Poses Exploiting Object Detections``
-by Matteo Taiana, Matteo Toso, Stuart James and Alessio Del Bue.
-
-It was released under the MIT license. Feel free to use this code in your research, but please acknowledge it as:
+PoserNet is published under the MIT license.<br> 
+If you use this code in your research, please acknowledge it as:
 
     @inproceedings{posernet_eccv2022,
     Title = {PoserNet: Refining Relative Camera Poses Exploiting Object Detections},
@@ -18,7 +26,7 @@ It was released under the MIT license. Feel free to use this code in your resear
 
 ## Project set up
 
-We only tested PoserNet on computers running Ubuntu, but we expect that it can be run on other operating systems.
+We developed PoserNet on computers running Ubuntu, but we expect that it can be run on other operating systems.
 
 ### Clone the repository and create the Conda environment
     git clone git@github.com:IIT-PAVIS/PoserNet
