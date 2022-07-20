@@ -1,0 +1,18 @@
+run_name: 'Small_graphs_normal_000002_seed_3'
+experiment_type: 'small_graphs_normal'  # Alternatives are: 'small_graphs_normal', 'small_graphs_loo', 'large_graphs_normal'.
+input_file_name:   'eccv_final_objectness_set'
+left_out_scene_id: None  # Only needs to be specified for the Leave-One-Out experiments.
+n_epochs: 50
+perform_node_updates: True
+shuffle_training_examples: True
+corrupt_input_estimates_at_beginning_of_epoch: True
+type_of_input_estimates: 2  # 0: Corrupted GT, 1: Estimates from matching BB centres, 2: Estimates from matching keypoints inside BBs, 3: Random poses, 4: Estimated from matching keypoints over the whole image.
+load_data_from_binary_files: True
+save_data_to_binary_files: False
+
+learning_rate: 1.0e-3  # The '.' is needed, otherwise the yaml reader interprets the value as a string.
+use_lr_scheduler: True
+lr_scheduler_factor: 0.316  # When applied twice, reduces the LR by a factor of 10.
+lr_patience: 3  # After 3 epochs with no improvement on the validation loss, it lowers the LR.
+
+seed: 3

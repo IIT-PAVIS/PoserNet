@@ -1,0 +1,2 @@
+dataset_path: '/data01/datasets/7Scenes/dataset/'
+model_output_path: '/data01/PoserNetModels/Models/'
