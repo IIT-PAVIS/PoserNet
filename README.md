@@ -12,7 +12,10 @@ The code in this repository is part of the paper:
  <a href='https://pavis.iit.it/web/pattern-analysis-and-computer-vision/people-details/-/people/stuart-james'>Stuart James</a> and
  <a href='https://pavis.iit.it/web/pattern-analysis-and-computer-vision/people-details/-/people/alessio-delbue'>Alessio Del Bue</a>.
 <br>
-Accepted for publication at  [ECCV 2022](https://eccv2022.ecva.net/)
+Accepted for publication at  [ECCV 2022](https://eccv2022.ecva.net/).
+
+**Abstract**<br> 
+The estimation of the camera poses associated with a set of images commonly relies on feature matches between the images. In contrast, we are the first to address this challenge by using objectness regions to guide the pose estimation problem rather than explicit semantic object detections. We propose Pose Refiner Network (PoserNet) a light-weight Graph Neural Network to refine the approximate pair-wise relative camera poses. PoserNet exploits associations between the objectness regions - concisely expressed as bounding boxes - across multiple views to globally refine sparsely connected view graphs. We evaluate on the 7-Scenes dataset across varied sizes of graphs and show how this process can be beneficial to optimisation-based Motion Averaging algorithms improving the median error on the rotation by 62 degrees with respect to the initial estimates obtained based on bounding boxes. 
 
 PoserNet is published under the MIT license.<br> 
 If you use this code in your research, please acknowledge it as:
