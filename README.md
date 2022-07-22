@@ -53,6 +53,7 @@ Create a directory to store the data in, e.g.:
 
 The graphs used to train and evaluate PoserNet can be downloaded from [here](https://drive.google.com/drive/folders/1y7M3fVt0XCaJOfSavb8-AA1g6QyoXzur?usp=sharing).
 The file PoserNet_graphs.zip contains two JSON files, with the large and small graphs respectively. Unzip the file in the chosen dataset directory.
+The file Trained_models.zip instead contains pre-trained versions of PoserNet. 
 
 ### Set up input and output directories
 Please set the path from which PoserNet will read the input data and that where it will store the checkpoints inside paths_config.yaml:
